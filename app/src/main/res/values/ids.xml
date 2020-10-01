@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="imageView_wa_image" type="id" />
+    <item name="imageView_wa_checked" type="id" />
+    <item name="fragment_wa_image" type="id" />
+</resources>

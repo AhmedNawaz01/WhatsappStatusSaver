@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/drawerbackground"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    app:menu="@menu/activity_main_drawer">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="60dp"
+        app:srcCompat="@drawable/whatsappstatusapp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Status Saver"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/poppins"
+        android:text="Comunication"
+        android:textColor="@color/iconcolor"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+   <View
+       android:layout_marginBottom="20dp"
+       android:layout_width="match_parent"
+       android:layout_height="1dp"
+       android:background="@color/iconcolor"
+       />
+
+        <TextView
+            android:id="@+id/nav_share_action"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textColor="@android:color/white"
+            android:text="Share"
+            android:textSize="14sp"
+            android:fontFamily="@font/poppins"
+            android:paddingLeft="20dp"
+            android:gravity="center_vertical"
+
+            />
+
+
+        <TextView
+            android:id="@+id/nav_rate_it"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textColor="@android:color/white"
+            android:text="Rate it"
+            android:textSize="14sp"
+            android:fontFamily="@font/poppins"
+            android:paddingLeft="20sp"
+            android:gravity="center_vertical"
+
+            />
+
+        <TextView
+            android:id="@+id/nav_suggestions"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textColor="@android:color/white"
+            android:text="Suggestion"
+            android:textSize="14sp"
+            android:fontFamily="@font/poppins"
+            android:paddingLeft="20dp"
+            android:gravity="center_vertical"
+
+            />
+
+
+</LinearLayout>

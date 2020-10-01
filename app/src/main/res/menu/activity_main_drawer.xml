@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+        <item
+            android:id="@+id/nav_share_action"
+            android:title="Share"
+            app:showAsAction="always"/>
+        <item
+            android:id="@+id/nav_rate_it"
+            android:title="Rate it"
+            app:showAsAction="always" />
+         <item
+        android:id="@+id/nav_suggestions"
+        android:title="Suggestions"
+             app:showAsAction="ifRoom"/>
+
+</menu>
