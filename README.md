@@ -1,4 +1,4 @@
 # statussaver
 Whatsapp status saver
 
-Download Status to local storage or shre directly to other Social media apps 
+Download Status to local storage or share directly to other Social media apps 
